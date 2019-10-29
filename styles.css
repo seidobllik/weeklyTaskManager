@@ -1,0 +1,146 @@
+body {
+    background-color: white;
+    background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_2164,w_3865,x_0,y_242/f_auto,q_auto,w_1100/v1554262071/shape/mentalfloss/94524-istock-918825114.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin-left: 8%;
+    margin-right: auto;
+    opacity: 0.8;
+}
+
+header, article, button {
+    display: inline-block;
+    background-color: #66ffff;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 7px navy;
+    height: 10%;
+    width: 90%;
+    margin: 5px;
+}
+
+button {
+    width: auto;
+    float: right;
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px outset black;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    box-shadow: 0 0 5px navy;
+}
+
+button:active {
+    box-shadow: 0 0 2px navy;
+    background-color: #00e6e6;
+    border: 1px inset black;
+}
+
+article {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+}
+
+#title, #date, #today {
+    color: black;
+    font-family: "lucida console";
+    text-align: center;
+    text-shadow: 0 0 2px white, 0 0 3px navy, 0 0 6px green;
+    padding: 1px;
+    margin: 0;
+}
+
+.person {
+    background-color: #00e6e6;
+    width: 90%;
+    max-width: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px navy;
+    justify-self: center;
+    padding: 2px;
+    margin: 5px;
+}
+
+.name {
+    font-family: "lucida console";
+    font-weight: bolder;
+    text-shadow: 0 0 2px white;
+    vertical-align: top;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.task {
+    min-height: 1px;
+    font-weight: bold;
+    background-color: #66ffff;
+    text-shadow: 0 0 2 white;
+    border: 1px dashed black;
+    border-radius: 5px;
+    padding: 0;
+    padding-left: 1px;
+    padding-bottom: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.task li {
+    min-height: 20px;
+    background-color: #00e6e6;
+    font-family: "lucida console";
+    font-size: 10px;
+    color: black;
+    text-shadow: 0 0 2px white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.task li:before {
+    content: "•";
+    vertical-align: top;
+    color: black;
+    text-shadow: 0 0 2px white;
+}
+
+.task li:hover {
+    border: 1px outset black;
+    box-shadow: 0 0 5px navy;
+}
+
+.taskInfoDiv {
+    display: inline-block;
+    width: 85%;
+    justify-content: flex-start;
+}
+
+.itemBtnDiv {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.itemBtnDiv button {
+    display: inline-block;
+    padding: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    vertical-align: top;
+    margin: 0;
+    font-weight: bold;
+}
