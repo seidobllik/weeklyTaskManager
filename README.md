@@ -9,3 +9,4 @@ Click on "X" on each task to delete that task.
 
 Click on "New Person" or "New Task" to add to the page.
 
+See it live on [GitHub Pages](https://seidobllik.github.io/weeklyTaskManager/).
